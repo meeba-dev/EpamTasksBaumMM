@@ -1,0 +1,16 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+out
+*.iws
+*.iml
+*.ipr
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+
