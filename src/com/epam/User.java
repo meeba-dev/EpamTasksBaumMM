@@ -1,5 +1,4 @@
-package com.epam.dto;
-
+package com.epam;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,9 +10,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class HumanDTO {
-    private int id;
+public class User {
     private String name;
-    private String birthDate;
-    private AddressDTO addressDTO;
+    private String roleType;
+
+    public void sayHello() {
+        System.out.println("Hello " + name + ". You are " + roleType);
+    }
 }
